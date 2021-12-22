@@ -1,0 +1,101 @@
+caption{
+    padding: 50px;
+    font-size: x-large;
+    background: darkorange;
+    color: white;
+    border:2px solid;
+    display: flex;
+
+}
+caption a {
+    color: darkcyan;
+    padding: 5px;
+}
+caption.align-center.justify-center {
+    display: grid;
+}
+
+.table{
+    border-collapse: collapse;
+    border:1px solid orange;
+    color: darkblue;
+    margin-top: 20px;
+    background: white;
+}
+
+
+thead tr {
+    border: 2px double darkcyan;
+    margin-bottom: .5em;
+}
+.table >tbody td {
+    margin-bottom: .5em;
+    text-align: center;
+}
+table.table * {
+    display: revert;
+}
+
+.table>tbdody td:before{
+    content:attr(data-head);
+    float:left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+caption.align-center.justify-center form {
+    max-height: 20px;
+}
+.table >thead{
+    /*  visibility: hidden;*/
+    display: none;
+}
+.table tr{
+
+    margin-bottom: .5rem;
+
+    padding:.5rem;
+
+}
+
+th, td {
+    border: 2px solid darkcyan;
+}
+.table>tbdody td:before{
+    content:attr(data-head);
+    float:left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table, thead, tbody, td {
+    display: block;
+}
+th{
+    display: flex;
+}
+table.table caption {
+    display: block;
+}
+th, td {
+    min-width: 42px;
+}
+@media (min-width: 680px) {
+    .table >thead{
+        display: inherit;
+    }
+
+
+}
+
+@media (min-width: 980px) {
+    .table tr {
+        display: block;
+    }
+
+
+    td {
+        display: revert;
+    }
+
+}

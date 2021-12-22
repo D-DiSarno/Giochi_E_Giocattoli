@@ -1,0 +1,11 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 70px;
+    background-image: linear-gradient(to bottom right, darkcyan, #ed6f00);
+     color: white;
+}
+a {
+    text-decoration: none;
+
+}

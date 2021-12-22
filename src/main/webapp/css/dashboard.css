@@ -1,0 +1,125 @@
+
+.topbar, .sidebar{
+    padding: .5rem;
+}
+
+.menu > a{
+    text-decoration: none;
+
+    padding: 1rem;
+}
+
+.menu > img{
+    cursor: pointer;
+}
+
+.sidebar{
+    flex-basis: 300px;
+
+}
+
+
+
+.content{
+    flex:1;
+}
+
+
+
+.topbar >*{
+
+    margin-right: 8px;
+}
+.topbar >svg{
+    cursor:pointer;
+}
+
+div.around {
+    font-size: large;
+    border: 2px solid orange ;
+    padding: 30px;
+
+    color:white;
+    align-items: center;
+}
+
+div.around a{
+    text-decoration: none;
+
+}
+div.around a:active{
+    text-decoration: none;
+}
+div.around a:visited{
+    text-decoration: none;
+}
+div.around a:hover{
+    font-size: x-large;
+    font-weight: bold;
+}
+div.valori{
+    height: auto;
+    width: auto;
+    margin: 5%;
+
+    margin-bottom: 1%;
+    font-size: 2vw;
+    border: 2px solid orange;
+
+}
+div.valori h4{
+    background-color: darkcyan;
+    border: 2px;
+    color: white;
+    font-size: large;
+}
+div.valori h2{
+    border:2px solid darkcyan;
+    color: darkcyan;
+    font-size: large;
+}
+.body.grid-x.justify-center {
+    margin: auto;
+}
+
+.body > div{
+    background-color: white;
+    box-shadow:  -9px -4px 12px 3px #B7B7B7;
+    margin: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+
+}
+.body > div >h4{
+    margin:0;
+    padding: 1rem;
+
+
+}
+.body> div>h2{
+    justify-self: center;
+    font-size:  3rem;
+}
+
+nav.menu.grid-y.align-center{
+    margin: 20%;
+}
+
+fieldset h2 {
+    font-size: 30px;
+    border: 10px solid darkcyan;
+}
+.admin{
+    font-size: 20px;
+    max-width: 200px;
+}
+fieldset.grid-x.form.admin {
+    display: contents;
+}
+
+@media (min-width: 760px){
+    fieldset.grid-x.form.admin {
+        display: inherit;
+    }
+}
